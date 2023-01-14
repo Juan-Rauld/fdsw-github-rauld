@@ -20,12 +20,6 @@ body {
   background-position: center;
 }
 
-/* Contacto */
-
-#Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
-}
 
 @media (max-width: 768px) {
   #Contacto form label {
@@ -40,4 +34,22 @@ body {
 
 .fix-logo-nav {
   height: 5rem;
+}
+
+#nota {
+  font-size: small;
+}
+
+/* Contacto */
+#Contacto {
+  color: #ffffff;
+  background-color: #212529;
+  width: 100%;
+  display: block;
+  padding: 1em 5em 5em 5em;
+}
+
+#Contacto form label {
+  font-weight: 700;
+  color: #ffffff;
 }
